@@ -1,0 +1,21 @@
+body{
+  background: wheat;
+}
+table{
+  max-width: 750px;
+  max-height: 480px;
+}
+td{
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center;
+  width: 60px;
+  height: 120px;  
+}
+.card-bg{
+  background-image: url("./img/card_back.png");
+  cursor: pointer;
+}
+.bg-none{
+  background-image: none !important;
+}
